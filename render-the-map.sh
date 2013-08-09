@@ -17,3 +17,6 @@ unzip -o ${SRC_ZIP}
 git clone ${CONFIG_URL} configs
 
 screen -d -m overviewer.py --verbose --config=${WORKINGDIR}/configs/Bungalow.cfg
+
+# Gen POI / Map labels
+# overviewer.py --verbose --config=${WORKINGDIR}/configs/Bungalow.cfg --genpoi
